@@ -1,0 +1,32 @@
+server:
+  port: 8090
+  servlet:
+    encoding:
+      charset: utf-8
+      force: true
+      enabled: true
+
+spring:
+  datasource:
+    username: hanshic
+    password: 'admin'
+    url: jdbc:mysql://172.26.0.10:3306/LoginDemo?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=GMT
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: pojo
+  configuration:
+    map-underscore-to-camel-case: true
+#    log-impl: org.apache.ibatis.logging.log4j2.Log4j2Impl
+      #开启MyBatis的二级缓存
+    cache-enabled: true
+
+
+##showSql
+#logging:
+#  level:
+#    com:
+#      han:
+#        tzdemo:
+#          mapper : debug
