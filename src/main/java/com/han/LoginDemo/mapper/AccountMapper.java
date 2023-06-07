@@ -1,7 +1,7 @@
-package mapper;
+package com.han.LoginDemo.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
-import pojo.Account;
+import com.han.LoginDemo.pojo.Account;
 
 @Mapper
 public interface AccountMapper {

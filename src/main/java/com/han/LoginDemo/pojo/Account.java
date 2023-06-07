@@ -1,4 +1,4 @@
-package pojo;
+package com.han.LoginDemo.pojo;
 import org.apache.ibatis.type.Alias;
 
 @Alias("Account")

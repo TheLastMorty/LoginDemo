@@ -1,9 +1,11 @@
-package service;
+package com.han.LoginDemo.service;
 
-import mapper.AccountMapper;
+import com.han.LoginDemo.mapper.AccountMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import pojo.Account;
+import com.han.LoginDemo.pojo.Account;
+import org.springframework.stereotype.Service;
 
+@Service
 public class AccountService {
     @Autowired
     AccountMapper  accountMapper;

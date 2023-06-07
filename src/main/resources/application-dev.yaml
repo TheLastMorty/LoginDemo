@@ -18,8 +18,8 @@ mybatis:
   type-aliases-package: pojo
   configuration:
     map-underscore-to-camel-case: true
-#    log-impl: org.apache.ibatis.logging.log4j2.Log4j2Impl
-      #开启MyBatis的二级缓存
+      #    log-impl: org.apache.ibatis.logging.log4j2.Log4j2Impl
+    #开启MyBatis的二级缓存
     cache-enabled: true
 
 

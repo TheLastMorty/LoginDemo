@@ -1,4 +1,4 @@
-package utils;
+package com.han.LoginDemo.utils;
 
 public class Result<T> {
     private int code;

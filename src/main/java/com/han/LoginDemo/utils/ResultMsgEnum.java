@@ -1,4 +1,4 @@
-package utils;
+package com.han.LoginDemo.utils;
 
 public enum ResultMsgEnum {
     SUCCESS(0, "成功"),

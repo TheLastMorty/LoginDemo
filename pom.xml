@@ -18,6 +18,8 @@
             <artifactId>spring-webmvc</artifactId>
             <version>5.3.8</version>
         </dependency>
+
+
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
@@ -46,6 +48,19 @@
             <version>2.5.2</version>
         </dependency>
     </dependencies>
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
+    </build>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
